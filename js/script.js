@@ -12,7 +12,7 @@ navClose.addEventListener('click',()=>{
 
 try{
     const mute = document.querySelector('.mute_checkbox')
-    const audio = new Audio('audio/watertower.mp3')
+    const audio = new Audio('./audio/watertower.mp3')
 
     const checkMute =() =>{
         if (mute.checked){

@@ -116,15 +116,15 @@ p {
 }
 
 .soc_link_fb {
-  background-image: url(/img/fb.svg);
+  background-image: url(./img/fb.svg);
 }
 
 .soc_link_tw {
-  background-image: url(/img/tw.svg);
+  background-image: url(./img/tw.svg);
 }
 
 .soc_link_ins {
-  background-image: url(/img/ins.svg);
+  background-image: url(./img/ins.svg);
 }
 
 .mute {
@@ -168,13 +168,13 @@ p {
 }
 
 .mute_label:before {
-  background-image: url(/img/volume_off.svg);
+  background-image: url(./img/volume_off.svg);
 }
 
 .mute_label:after {
   right: -22px;
   left: auto;
-  background-image: url(/img/volume_up.svg);
+  background-image: url(./img/volume_up.svg);
 }
 
 .mute_checkbox:checked + .mute_label:before {
@@ -204,7 +204,7 @@ p {
 .main_index {
   display: flex;
   align-items: center;
-  background-image: url(/img/photo\ bg.jpg);
+  background-image: url(./img/photo\ bg.jpg);
   background-position: top;
   background-size: cover;
   padding-left: 180px;
@@ -345,7 +345,7 @@ p {
     width: 20px;
     height: 12px;
     background-color: transparent;
-    background-image: url(/img/menu.svg);
+    background-image: url(./img/menu.svg);
     border: none;
   }
 
@@ -393,7 +393,7 @@ p {
     left: 20px;
     width: 16px;
     height: 16px;
-    background-image: url(/img/close.svg);
+    background-image: url(./img/close.svg);
     background-color: transparent;
     border: none;
   }
@@ -428,7 +428,7 @@ p {
         rgba(0, 0, 0, 0.76) 32.14%,
         rgba(255, 0, 0, 0) 72.56%
       ),
-      url(/img/photo.jpg);
+      url(./img/photo.jpg);
   }
 
   .mainlogo {
